@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"/>
  <EditText
      android:id="@+id/number"
+     android:inputType="number"
      android:layout_margin="10dp"
      android:layout_width="match_parent"
      android:layout_height="wrap_content"/>
@@ -40,6 +41,7 @@
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/admsn"
+        android:inputType="number"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -59,11 +61,22 @@
      android:layout_height="wrap_content"/>
  <androidx.appcompat.widget.AppCompatButton
      android:text="Submit"
+     android:id="@+id/submit"
      android:layout_margin="10dp"
      android:textColor="@color/white"
      android:textSize="20dp"
      android:background="@color/buttonclr"
      android:layout_width="match_parent"
      android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Back To Menu"
+        android:id="@+id/backto"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@color/buttonclr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
